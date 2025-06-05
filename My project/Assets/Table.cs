@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Table : MonoBehaviour
 {
-    public int MaxChairCount;
+    public int MaxChairCount = 4;
     public float Range = 2f;
     public List<GameObject> Chairs = new List<GameObject>();
 
